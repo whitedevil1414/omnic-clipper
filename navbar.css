@@ -1,0 +1,57 @@
+body {
+    font-family: 'Archivo', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #f8f8f1;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5A4EAE;
+}
+
+.navbar .nav-links {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.navbar .nav-links a {
+    color: #5A4EAE;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+.navbar .nav-links a:hover{
+    background-color: #5A4EAE;
+    color: whitesmoke;
+}
+
+.navbar .button-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar .button-section button {
+    padding: 10px 20px;
+    background-color: #5A4EAE;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .button-section button:hover {
+    background-color: #5A4EAE;
+}

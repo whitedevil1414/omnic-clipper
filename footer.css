@@ -1,0 +1,162 @@
+/*contact Us*/
+.con{
+    width: 100vw;
+    background-color: #eeedf6;
+    padding-bottom: 20px;
+}
+.contact-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-container h1 {
+    color: #5A4EAE;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 3em;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-container input, .contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.contact-container textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 150px;
+}
+
+.contact-container button {
+    background-color: #5A4EAE;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.contact-container button:hover {
+    opacity: 0.8;
+}
+
+/*foobar*/
+/* Foobar Section */
+/*foobar*/
+.finalf {
+    width: 100vw; /* Full width of the viewport */
+    padding: 20px;
+    background-color: #5A4EAE;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.foobar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px;
+    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.logo img {
+    max-width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.logo .e {
+    color: whitesmoke;
+    font-size: 1em;
+    margin: 0;
+    max-width: 200px; /* Adjust width as needed */
+}
+
+.section {
+    margin: 10px 0;
+}
+
+.section h3 {
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+ul {
+    color: whitesmoke;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
+
+.contact {
+    width: 250px;
+    margin-top: 10px;
+}
+
+.contact input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffe600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.social-media {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-media i {
+    color: whitesmoke;
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5A4EAE;
+    padding: 20px;
+    box-sizing: border-box;
+}
